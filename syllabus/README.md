@@ -29,17 +29,20 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * (Section 5) Saturday 8 - 9:30a Pacific (Sid J Reddy)
 * (Section 97) Tuesday 2 - 3:30p Pacific (Peter Grabowski)
 * (Section 98) Wednesday 4 - 5:30p Pacific (Joachim Rahmfeld)
-* (Section 99) Thursday 4 - 5:30p Pacific ()
+* (Section 99) Thursday 4 - 5:30p Pacific (Zack Alexander)
 
 **Teaching Staff Office Hours:**
 
+* **Zack Alexander**: TDB
+* **Mark Butler**: Thursday and Friday immediately after his live session
 * **Daniel Cer**: Thursday at 4pm PST
+* **Peter Grabowski**: TBD
 * **Joachim Rahmfeld**: Wednesday immediately after his live session
-* **Mark Butler**: Thursday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
 * **Mike Tamir/Paul Spiegelhalter**: Wednesday immediately after his live session
 * **Drew Plant**: Monday at 6pm PST
-* **Gurdit Chahal**: Tuesday at 5pm PST 
+* **Gurdit Chahal**: Tuesday at 5pm PST
+* **Anu Yadav**: TBD
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -143,7 +146,7 @@ We'll update the table below with assignments as they become available, as well 
 
 *Dates are tentative:* assignments in particular may change topics and dates.  (Updated slides for each week will be posted during the live session week.)
 
-### Live Session Slides: [[available soon](https://drive.google.com)]
+### Live Session Slides: [[available here with @berkeley.edu address](https://drive.google.com/drive/folders/1-5aoNNsqaFOaPvpUmuqQClTZeY-tgihY?usp=sharing)]
 
 ### Deliverables
 
@@ -257,7 +260,9 @@ will be released around the last live session of the week and due approximately 
 </tr>
 <tr><!--- Sentiment/Classification -->
   <td><strong>Week&nbsp;3</strong><br>(Jan&nbsp;18)</td>
-  <td>Classification and Sentiment (up to 2.6)
+  <td>Classification and Sentiment (up to 2.6), 
+  <br>4.2, 4.12 - 4.17, 
+  <br>6.10, 6.12
   </td>
   <td><ul>
   <li>Sentiment lexicons
@@ -324,7 +329,7 @@ will be released around the last live session of the week and due approximately 
 <tr><!--- Language models and n-grams -->
   <td><strong>Week&nbsp;6</strong><br>(Feb&nbsp;8)</td>
   <td>Language Modeling I,
-  <br>4.1-4.4, 4.12 - 4.17,
+  <br>4.1-4.4,
   <br>5.8, 5.11</td>
   <td><ul>
     <li>LM applications
@@ -334,7 +339,7 @@ will be released around the last live session of the week and due approximately 
     <li>Distributed representations
     <li>Neural Net LMs
     <li>Word embeddings
-    <li>Hierarchical softmax
+    <li>Softmax variants
   </ul></td>
   <td>Language model introduction:<ul>
   <li>Skim: <a href="http://www.cs.berkeley.edu/~klein/cs294-5/chen_goodman.pdf" target="_blank">Chen and Goodman Survey</a>
@@ -425,23 +430,27 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 
-  <tr><!--- Practical Machine Learning  week 10 -->
+<tr><!--- Week 10 Entities -->
   <td><strong>Week&nbsp;10</strong><br>(March&nbsp;8)</td>
-  <td>No Async</td>
+  <td>Entities</td>
   <td><ul>
-  <li>Document Representation and Classification
-  <li>Document Term Matrix
-  <li>Document Vectors
-  <li>LDA
-  <li>Document Classification
+  <li>From syntax to semantics
+  <li>Named Entity Recognition
+  <li>Coreference Resolution
+  <li>Entity Linking
+  <li>Information Extraction
   </ul></td>
   <td><ul>
-    <li><em>Read (skim):</em> <a href="https://arxiv.org/pdf/1904.08398.pdf" target="_blank">DocBERT: BERT for Document Classification</a> (Adhikari et. al., 2019)
-    <li><em>Read:</em> <a href="https://www.aclweb.org/anthology/N16-1174.pdf" target="_blank">Hierarchical Attention Networks for Document Classification</a> (Yang et. al., 2019)
+  <li>Read: <a href="http://www.nltk.org/book/ch07.html" target="_blank">NLTK Book Chapter 7 (Extracting Information from Text)</a>
+  <li><em>Optional:</em> <a href="http://www.aclweb.org/anthology/D09-1120" target="_blank">Simple Coreference Resolution with Rich Syntactic and Semantic Features</a> (Haghighi and Klein 2009, rule-based coreference)
+  <li><em>Optional:</em> <a href="http://www.aclweb.org/anthology/P16-1061" target="_blank">Improving Coreference Resolution by Learning Entity-Level Distributed
+  Representations</a> (Clark and Manning 2016, neural coreference)
   </ul>
   <p>
   </td>
 </tr>
+
+
 
 <tr><!--- Week 11 Summarization-->
   <td><strong>Week&nbsp;11</strong><br>(March&nbsp;15)</td>
@@ -462,21 +471,27 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 
-<tr><!--- Week 12 Entities -->
+
+ <tr><!--- No class  week 10 -->
+  <td><strong>Spring Break</strong><br>(March&nbsp;22)</td>
+  <td>No Async</td>
+    <td>No class</td>
+  <td>No Readings</td>
+</tr>
+
+ <tr><!--- Practical Machine Learning  week 10 -->
   <td><strong>Week&nbsp;12</strong><br>(March&nbsp;29)</td>
-  <td>Entities</td>
+  <td>No Async</td>
   <td><ul>
-  <li>From syntax to semantics
-  <li>Named Entity Recognition
-  <li>Coreference Resolution
-  <li>Entity Linking
-  <li>Information Extraction
+  <li>Document Representation
+  <li>Document Term Matrix
+  <li>Document Vectors
+  <li>Topic Modeling and LDA
+  <li>Document Classification
   </ul></td>
   <td><ul>
-  <li>Read: <a href="http://www.nltk.org/book/ch07.html" target="_blank">NLTK Book Chapter 7 (Extracting Information from Text)</a>
-  <li><em>Optional:</em> <a href="http://www.aclweb.org/anthology/D09-1120" target="_blank">Simple Coreference Resolution with Rich Syntactic and Semantic Features</a> (Haghighi and Klein 2009, rule-based coreference)
-  <li><em>Optional:</em> <a href="http://www.aclweb.org/anthology/P16-1061" target="_blank">Improving Coreference Resolution by Learning Entity-Level Distributed
-  Representations</a> (Clark and Manning 2016, neural coreference)
+    <li><em>Read (skim):</em> <a href="https://arxiv.org/pdf/1904.08398.pdf" target="_blank">DocBERT: BERT for Document Classification</a> (Adhikari et. al., 2019)
+    <li><em>Read:</em> <a href="https://www.aclweb.org/anthology/N16-1174.pdf" target="_blank">Hierarchical Attention Networks for Document Classification</a> (Yang et. al., 2019)
   </ul>
   <p>
   </td>
@@ -502,6 +517,13 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 
+
+ <tr><!--- In class presentations week 10 -->
+  <td><strong>Week&nbsp;14</strong><br>(April&nbsp;12)</td>
+    <td></td>
+  <td>In class project presentations</td>
+  <td></td>
+</tr>
 
 </table>
 

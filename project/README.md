@@ -82,18 +82,10 @@ For project ideas, take a look at the final projects from [previous](example-com
 - Analysis of gender roles or power dynamics in movie dialogues
 - Explore techniques for interpreting “black box” / neural models for language
 
-Additionally, we've put some of the top projects from the last semester in [a shared drive folder](https://drive.google.com/open).
+Additionally, we've put some of the top projects from previous semesters in [a shared drive folder](https://drive.google.com/drive/folders/1Q_B7NkpqodZqcFmaOW-k7c_CWw13pYsk?usp=sharing).
 
-Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2019/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2019/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
+Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2020/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2020/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
 
-<!-- ## Draft Project Proposal
-The project is a major part of this class and we want to make sure you get off on a good footing.  We will provide a form for you to fill out where you will have to answer five basic questions about what you are considering:
-- What type of NLP problem are you wanting to address in your project?
-- What kind of neural architecture are you proposing to use?
-- Which data set is traditionally used to address the problem?
-- Which data set are you considering using for your project?
-- Reference to one paper published in 2019 or 2020 that addresses the problem
--->
 
 ## Project Proposal
 
@@ -114,7 +106,7 @@ You must include four references to relevant papers for the technique and/or dat
 - [NIPS](https://papers.nips.cc/) and [ICML](http://proceedings.mlr.press/v97/) are the top machine learning conferences; these are good places to look if you want to use neural networks.
 - [Google Scholar](https://scholar.google.com/) and the [arXiv](https://arxiv.org/) are great to find specific papers.
 
-This year’s NLP conferences might be good for inspiration as well, or if you just want a sense of what people in the field are working on: [NAACL](https://www.aclweb.org/anthology/events/naacl-2019/), [ACL](https://www.aclweb.org/anthology/events/acl-2019/), [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2019/).
+This year’s NLP conferences might be good for inspiration as well, or if you just want a sense of what people in the field are working on: [NAACL](https://www.aclweb.org/anthology/events/naacl-2019/), [ACL](https://www.aclweb.org/anthology/events/acl-2020/), [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2020/).
 
 Between Week 2 and Week 4, the instructors will be holding special discussion sections (during OH) to talk about how to search the literature and read NLP papers. Each session will also include a guided discussion of a specific paper. We'll release a schedule and a list of papers early in the semester.
 
