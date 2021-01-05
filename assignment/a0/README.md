@@ -25,7 +25,7 @@ Commit the change with `git commit`.
 
 4. **Open and run `a0.ipynb`**. This notebook will check that your Python packages are up-to-date, test TensorFlow, and give a taste of some of the NLP datasets we'll be working with. You don't need to write any code here - just run the cells, save, and commit the updated notebook to git.  `git commit` the resulting populated notebook so that we know you ran it.
 
-4. **Create your personal submission repo** at [this link](https://classroom.github.com/a/LGOZGlJs). We'll use this for submitting assignments; it's private to you and the instructors.
+4. **Create your personal submission repo** at [this link](https://classroom.github.com/a/D8L0msR9). We'll use this for submitting assignments; it's private to you and the instructors.
 
 5. **Run the submit script**: `./assignment/submit.sh -u your-github-username -a 0`, which will push to your personal repo. It will try to verify the submission, but you can should also visit the repo on GitHub and confirm that your changes show up.  (For all assignments in this course, it's your responsibility to make sure your submission has made it to GitHub!)  **Note:** There is no need to send pull requests or any of the other usual git machinery.  All you need to do is run the submit script and check that your code appeared in a branch named a0-submit in your "classroom" repository you setup in the previous step.  If you can't find it, **this is a problem**.  If you can't figure it out, ask (preferably publicly) on Piazza and someone will help you out.  There will be a small number of points for each assignment for submitting your homework in the right place.
 
