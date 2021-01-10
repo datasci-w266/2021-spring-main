@@ -33,16 +33,16 @@ Understanding language is fundamental to human interaction. Our brains have evol
 
 **Teaching Staff Office Hours:**
 
-* **Zack Alexander**: TDB
-* **Mark Butler**: Thursday and Friday immediately after his live session
+* **Zack Alexander**: Thursday immediately after his live session
+* **Mark Butler**: Monday at 1pm PST and Friday immediately after his live session
 * **Daniel Cer**: Thursday at 4pm PST
-* **Peter Grabowski**: TBD
+* **Peter Grabowski**: Tuesday immediately after his live sessions
 * **Joachim Rahmfeld**: Wednesday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
 * **Mike Tamir/Paul Spiegelhalter**: Wednesday immediately after his live session
 * **Drew Plant**: Monday at 6pm PST
 * **Gurdit Chahal**: Tuesday at 5pm PST
-* **Anu Yadav**: TBD
+* **Anu Yadav**: Thursday at 6pm PST
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -168,18 +168,18 @@ will be released around the last live session of the week and due approximately 
     <li>Google Cloud
   </ul></td>
   <td></td>
-  <td>TBD</td>
+  <td>Jan&nbsp10</td>
 </tr>
 
-<!-- draft project proposal -->
-<!-- <tr> 
-  <td><strong><a href="../project/#draft-project-proposal" target="_blank">Project&nbsp;Proposal Draft</a></strong>
-  <td>
-  <strong><a href="../project" target="_blank">Draft Project Guidelines</a></strong>
-  </td>
+<tr> <!-- a1 -->
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <td><strong>Assignment 1</strong>
+  <ul>
+    <li>Information Theory
+  </ul></td>
   <td></td>
-  <td>Sep&nbsp;12</td>
-</tr> -->
+  <td>Jan&nbsp;17</td>
+</tr>
 
 <tr> <!-- project proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
