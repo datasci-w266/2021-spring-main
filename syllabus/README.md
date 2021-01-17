@@ -181,6 +181,15 @@ will be released around the last live session of the week and due approximately 
   <td>Jan&nbsp;17</td>
 </tr>
 
+<tr>  <!-- a2 -->
+  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
+  <td><strong>Assignment 2</strong>
+  <ul>
+    <li>Neural Networks
+  </ul></td>
+  <td></td>
+  <td>Jan&nbsp;24</td>
+</tr>
 <tr> <!-- project proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
@@ -243,7 +252,7 @@ will be released around the last live session of the week and due approximately 
   <td>
   <br>5.2 Softmax Classification
   <br>5.4 Neural network recap
-  <br>5.5 Neural network training loss
+  <br>5.6 Neural network training loss
   </td>
   <td><ul>
     <li>ML models: Logistic regression and feed forward networks
