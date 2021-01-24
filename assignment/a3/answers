@@ -1,0 +1,188 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 3 parts for a total of 34 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Project (0 points)
+# - Embeddings (18 points)
+# - ML Fairness (16 points)
+
+
+
+###################################################################
+###################################################################
+## Project (0 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Project Proposal Prep (unrelated to a notebook) (0 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/0): Is your group size one or two?  If your group size is three, have you consulted with your instructor and have their agreement that your project makes sense to do in a group of three?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_1: 
+ - True
+ - False
+
+# Question 2 (/0): Have you identified a project topic idea?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_2: 
+ - True
+ - False
+
+# Question 3 (/0): Have you found at least one paper that is related to your topic?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_3: 
+ - True
+ - False
+
+# Question 4 (/0): Have you downloaded and looked at a potential dataset?
+# (This question is multiple choice.  Delete all but the correct answer).
+project_1_4: 
+ - True
+ - False
+
+
+
+###################################################################
+###################################################################
+## Embeddings (18 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Nearest Neighbors (12 points)  | 
+# ------------------------------------------------------------------
+
+# Question 2a (/1): Closest word to bank?
+embeddings_a_2a: your answer
+
+# Question 2b (/1): Closest word to plane?
+embeddings_a_2b: your answer
+
+# Question 2c (/1): Closest word to flies?
+embeddings_a_2c: your answer
+
+# Question 2d (/3): Are the neighbors dominated by one sense of flies or is there evidence that the vector encodes the meaning of other senses as well?
+# (This question is multiple choice.  Delete all but the correct answer).
+embeddings_a_2d: 
+ - Dominated by one interpretation
+ - Multiple interpretations
+
+# Question 3a (/1): Closest word to orange?
+embeddings_a_3a: your answer
+
+# Question 3b (/1): Closest word to green?
+embeddings_a_3b: your answer
+
+# Question 3c (/1): Closest word to celadon?
+embeddings_a_3c: your answer
+
+# Question 3e (/3): Does the vector for "celadon" appear to encode a notion of color?
+# (This question is multiple choice.  Delete all but the correct answer).
+embeddings_a_3e: 
+ - Yes - related words emphasize the color interpretation
+ - No - related words are similar on other dimensions
+
+
+# ------------------------------------------------------------------
+# | Section (b): Linear Analogies (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 2a (/1): mouse to mice, dog is to ____
+embeddings_b_2a: your answer
+
+# Question 2b (/1): fast to fastest, slow is to ____
+embeddings_b_2b: your answer
+
+# Question 2c (/1): work to works, speak is to ____
+embeddings_b_2c: your answer
+
+# Question 2d (/1): russia to moscow, greece is to ____
+embeddings_b_2d: your answer
+
+# Question 3a (/1): lizard to reptile, dog is to ____
+embeddings_b_3a: your answer
+
+# Question 3b (/1): finger is to hand as toe is to ___
+embeddings_b_3b: your answer
+
+
+
+###################################################################
+###################################################################
+## ML Fairness (16 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Racist AI (8 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/3): Italian vs. Mexican sentiment
+ml_fairness_1_1: 0.00000
+
+# Question 2a (/1): Least biased
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_1_2a: 
+ - ConceptNet Numberbatch
+ - GloVe
+ - Word2Vec
+
+# Question 2b (/1): Most biased
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_1_2b: 
+ - ConceptNet Numberbatch
+ - GloVe
+ - Word2Vec
+
+# Question 3 (/1): What technique did the author apply?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_1_3: 
+ - Debiasing Word Embeddings
+ - Bias Risk Reduction
+ - Adversarial Training
+
+# Question 4 (/2): How significant is the model performance penalty for using debiased vectors?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_1_4: 
+ - None
+ - Very little
+ - Significant
+
+
+# ------------------------------------------------------------------
+# | Section (2): Debiasing Word Embeddings (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/2): Why are the results of Table 1 important?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_2_1: 
+ - We see no tradeoff between model performance and model bias.
+ - We see little tradeoff between model performance and model bias.
+ - There is an enormous tradeoff between model performance and model bias.
+
+
+# ------------------------------------------------------------------
+# | Section (3): Adversarial Learning (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/2): What is the equality gap?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_3_1: 
+ - The probability assigned to the positive class given a protected variable is true minus the probability assigned to the positive class given the protected variable is false
+ - The difference in propensity of the model to make a correct judgement in either direction given a particular value of protected variable
+
+# Question 2 (/2): What is the parity gap?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_3_2: 
+ - The probability assigned to the positive class given a protected variable is true minus the probability assigned to the positive class given the protected variable is false
+ - The difference in propensity of the model to make a correct judgement in either direction given a particular value of protected variable
+
+# Question 3 (/2): What is the intuition behind Jlambda?
+# (This question is multiple choice.  Delete all but the correct answer).
+ml_fairness_3_3: 
+ - A multiplier to ensure back propagation works where the final affine layer is reducing variance
+ - A negation of the gradient from a second head on the network that is trying to predict the protected variable such that the main network parameters make predictions worse on that head
