@@ -210,6 +210,18 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>Feb&nbsp;6</td>
 </tr>
+
+<tr> <!-- a4 -->
+  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
+  <td><strong>Assignment 4</strong>
+  <ul>
+    <li>Classification
+    <li>Convolutional Neural Nets
+  </ul></td>
+  <td></td>
+  <td>Feb&nbsp;14</td>
+</tr>
+
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>

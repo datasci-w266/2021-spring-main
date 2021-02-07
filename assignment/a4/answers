@@ -1,0 +1,218 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 3 parts for a total of 83 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Convolutional Neural Networks Warmup (11 points)
+# - Exploration (36 points)
+# - Convolutional Neural Networks (36 points)
+
+
+
+###################################################################
+###################################################################
+## Convolutional Neural Networks Warmup (11 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Prework Warmup (11 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Why CNNs?
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_warmup_1_1: 
+ - Better word embeddings
+ - Capture local structure using a small number of parameters
+ - Loss function better than cross-entropy
+
+# Question 2 (/1): What is pooling?
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_warmup_1_2: 
+ - A way to reduce the number of parameters of your network
+ - A way to compress and reduce the resolution of a layer
+
+# Question 3 (/1): Since pooling takes the max of a neighboring group of cells in a layer, how can this be differentiable?
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_warmup_1_3: 
+ - The partial derivative of the output of the pooling layer is zero with respect to all but the max cell whose partial derivative is 1.
+ - It is not differentiable so we must use Thompson Sampling
+
+# Question 4 (/2): If the previous layer had dimension 224x224x3 and the next has dimension 224x224x64, what is the depth dimension of the filters you applied assuming the input volume is symmetric?
+convolutional_neural_networks_warmup_1_4: 0
+
+# Question 5 (/2): If the previous layer had dimension 224x224x3 and the next has dimension 224x224x64, how many filters did you apply?
+convolutional_neural_networks_warmup_1_5: 0
+
+# Question 6 (/2): If the previous layer had dimension 224x224x3 and the next has dimension 222x222x64, what might you consider adding?
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_warmup_1_6: 
+ - Stride
+ - 4 additional convolutions
+ - Padding
+
+# Question 7 (/2): If the previous layer had dimension 224x224x3 and the next has dimension 112x112x64, what stride did you use?
+convolutional_neural_networks_warmup_1_7: 0
+
+
+
+###################################################################
+###################################################################
+## Exploration (36 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Exploring the Data (15 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.1 (/3): What is the fraction of positive labels? (e.g. 72% is 0.72).
+exploration_a_1_1: 0.00000
+
+# Question 1.2 (/1): Is it approximately balanced?
+exploration_a_1_2: False
+
+# Question 1.3 (/2): What is the common class accuracy?
+exploration_a_1_3: 0.00000
+
+# Question 2 (/5): What are the five most common tokens in the entire data set?
+exploration_a_2: 
+- your answer
+- your answer
+- your answer
+- your answer
+- your answer
+
+# Question 3 (/2): What is the 95th percentile sentence length in the training set?
+exploration_a_3: 0
+
+# Question 4 (/2): What is the 95th percentile including subphrases?
+exploration_a_4: 0
+
+
+# ------------------------------------------------------------------
+# | Section (b): Naive Bayes (12 points)  | 
+# ------------------------------------------------------------------
+
+# Question 2.1 (/4): What was the percent accuracy reported for your MultinomialNB classifier?  (For 82.1%, type 82.1.)
+exploration_b_2_1: 0.00000
+
+# Question 2.2 (/3): What is the most positive word?
+exploration_b_2_2: your answer
+
+# Question 2.3 (/1): What is the most positive word's score?
+exploration_b_2_3: 0.00000
+
+# Question 2.4 (/3): What is the most negative word?
+exploration_b_2_4: your answer
+
+# Question 2.5 (/1): What is the most negative word's score?
+exploration_b_2_5: 0.00000
+
+
+# ------------------------------------------------------------------
+# | Section (c): Examining Negation (9 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Why does it get the first one wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+exploration_c_1: 
+ - No sense of context.
+ - A subphrase is negated.
+ - An overwhelmingly positive word appears among many slightly negative words.
+
+# Question 2.1 (/0): What patterns do you see?  (Ungraded.)
+exploration_c_2_1: your answer
+
+# Question 2.2 (/1): What is often the relationship of polarity in these interesting sentences between a subphrase and the whole sentence?
+# (This question is multiple choice.  Delete all but the correct answer).
+exploration_c_2_2: 
+ - opposite
+ - same
+
+# Question 2.3 (/2): Is this phenomenon captured well by a linear model?
+exploration_c_2_3: False
+
+# Question 3.1 (/2): What is the error (%) on the whole test set?  (e.g. For 10.4% type 10.4.)
+exploration_c_3_1: 0.00000
+
+# Question 3.2 (/2): What is the error (%) on the interesting part of the test set?  (e.g. for 10.4% type 10.4.)
+exploration_c_3_2: 0.00000
+
+# Question 3.3 (/1): What is the increase in error (as a %)?
+exploration_c_3_3: 0
+
+
+
+###################################################################
+###################################################################
+## Convolutional Neural Networks (36 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): CNN Short Answer Questions (model architecture) (30 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.1 (/2): What is the dimension of c^i_k?
+convolutional_neural_networks_a_1_1: [d0]
+
+# Question 1.2 (/2): What is the dimension of ck?
+convolutional_neural_networks_a_1_2: [d0]
+
+# Question 1.3 (/2): What is the dimension of chat_k
+convolutional_neural_networks_a_1_3: [d0]
+
+# Question 1.7 (/3): What is the dimension of Chat?
+convolutional_neural_networks_a_1_7: [d0]
+
+# Question 2.1 (/3): What is the dimension of c_k?
+convolutional_neural_networks_a_2_1: [d0]
+
+# Question 2.2 (/3): What is the dimension of chatk?
+convolutional_neural_networks_a_2_2: [d0]
+
+# Question 3.1 (/3): How many parameters are there in W with h=3?
+convolutional_neural_networks_a_3_1: 0
+
+# Question 3.2 (/3): How many parameters are there in W with h=4?
+convolutional_neural_networks_a_3_2: 0
+
+# Question 3.3 (/3): How many parameters are there in W with h=5?
+convolutional_neural_networks_a_3_3: 0
+
+# Question 3.4 (/3): How many parameters are there in Wout?
+convolutional_neural_networks_a_3_4: 0
+
+# Question 4 (/1): What is the role of kernels/filters with respect to feature engineering.
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_a_4: 
+ - The neural network is learning the feature engineering for you.
+ - The neural network does not require features to operate.
+
+# Question 5.1 (/2): Would the two predictions be the same?
+convolutional_neural_networks_a_5_1: False
+
+# Question 5.2 (/0): Why or why not?
+convolutional_neural_networks_a_5_2: your answer
+
+
+# ------------------------------------------------------------------
+# | Section (b): Tuning your model (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Which method does the paper recommend?
+# (This question is multiple choice.  Delete all but the correct answer).
+convolutional_neural_networks_b_1: 
+ - random
+ - grid
+
+# Question 2 (/0): Describe what you found.
+convolutional_neural_networks_b_2: your answer
+
+# Question 3 (/0): Did you find they were the same?  Different?  (Are you overfitting the dev set?)
+convolutional_neural_networks_b_3: your answer
+
+# Question 4 (/5): What was the best accuracy you achieved on the test set?  (As long as you show evidence of exploring, you'll get full points.)
+convolutional_neural_networks_b_4: 0.00000
