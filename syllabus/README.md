@@ -35,7 +35,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 
 * **Zack Alexander**: Thursday immediately after his live session
 * **Mark Butler**: Monday at 1pm PST and Friday immediately after his live session
-* **Daniel Cer**: Thursday at 4pm PST
+* **Daniel Cer**: Friday at noon PST
 * **Peter Grabowski**: Tuesday immediately after his live sessions
 * **Joachim Rahmfeld**: Wednesday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
@@ -230,6 +230,16 @@ will be released around the last live session of the week and due approximately 
   </ul></td>
   <td></td>
   <td>Feb&nbsp;21</td>
+</tr>
+
+<tr> <!-- a6 -->
+  <td><strong><a href="../assignment/a6" target="_blank">Assignment&nbsp;6</a></strong>
+  <td><strong>Assignment 6</strong>
+  <ul>
+    <li>Machine Translation
+  </ul></td>
+  <td></td>
+  <td>Mar&nbsp;7</td>
 </tr>
 
 <tr><!--- Project Reports -->
