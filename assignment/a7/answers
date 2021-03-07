@@ -1,0 +1,245 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 5 parts for a total of 29 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Project Small Model (0 points)
+# - Transformers (8 points)
+# - BERT and Transfer Learning (5 points)
+# - Practical Machine Learning (10 points)
+# - Information Extraction (6 points)
+
+
+
+###################################################################
+###################################################################
+## Project Small Model (0 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Project Progress (unrelated to a notebook) (0 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/0): What are the dimensions of your bottom most hidden layer?
+project_small_model_a_1: [d0, d1]
+
+# Question 2 (/0): How many hidden layers are in your model?
+project_small_model_a_2: 0
+
+# Question 3 (/0): What is your starting loss?
+project_small_model_a_3: 0.00000
+
+# Question 4 (/0): What is your ending loss?
+project_small_model_a_4: 0.00000
+
+# Question 5 (/0): How many epochs did you train?
+project_small_model_a_5: 0
+
+
+
+###################################################################
+###################################################################
+## Transformers (8 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Transformers (8 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/2): How are Q, K, and V constructed in the Attention is All You Need Paper (Vaswani et. al.)?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_1: 
+ - A neural network applied to each word
+ - Three learned linear transforms of the representation of each word
+ - Parameters learned while training the model
+
+# Question 2 (/2): Q, K, V are three vectors used in the Attention is All You Need paper.  In the simple attention model, we only had a query and hidden state values.  Which of these played the role of the key in that simpler model?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_2: 
+ - query
+ - hidden state values
+ - none of the above
+
+# Question 3 (/2): A key difference between the encoder and decoder structures of the transformer in Vaswani et. al. is ...?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_3: 
+ - Different number of attention heads in the multi-head attention layer
+ - Masked multi-head attention
+ - none of the above
+
+# Question 4 (/2): In the Vaswani et. al. transformer, how is the encoder output fed into the decoder...?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_4: 
+ - Through a second attention function in the decoder
+ - Through the add & norm layer in the decoder
+ - none of the above
+
+
+
+###################################################################
+###################################################################
+## BERT and Transfer Learning (5 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Transfer Learning (1 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Transfer learning is...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_a_1: 
+ - the use of a generalized architecture to solve an information transfer problem
+ - the use of a generalized model built on some task(s) being used to solve another task
+ - the use of a specialized model to improve performance on a language problem
+
+
+# ------------------------------------------------------------------
+# | Section (b): BERT (4 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): BERT is trained with a next sentence prediction task and...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_1: 
+ - a masked self-attention model task
+ - a masked language model task
+ - a randomly permuted sequence factorization model task
+
+# Question 2 (/1): BERT solves the large vocabulary problem with...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_2: 
+ - wordpart tokenization
+ - wordpiece tokenization
+ - byte pair encoding tokenization
+
+# Question 3 (/1): BERT's decoder architecture allows it to generate seemingly fluent text. True or False?
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_3: 
+ - True
+ - False
+
+# Question 4 (/1): The RoBERTa model is like BERT but ...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_4: 
+ - trained with a special gender debiasing algorithm
+ - trained with better masking and more epochs
+ - trained with French texts only
+
+
+
+###################################################################
+###################################################################
+## Practical Machine Learning (10 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Activation functions (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the derivative of sigmoid(z) as z approaches infinity?
+practical_machine_learning_a_1: 0
+
+# Question 2 (/1): What is the derivative of sigmoid(z) as z approaches -infinity?
+practical_machine_learning_a_2: 0
+
+# Question 3 (/2): What can this cause?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_3: 
+ - Layers closest to the features in the network may not update much as the product of partial derivatives is close to zero
+ - Layers closest to the outputs in the network may not be able to provide a strong classifier when effectively building on a random projection of the original features.
+ - All of the above
+
+# Question 4 (/2): What can we do about this?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_4: 
+ - Initialize W matrices using Xavier to ensure that inputs to the nonlinearity are close to zero mean.
+ - Use activation (nonlinearity) functions that do not have a broader low-gradient region
+ - Use batch normalization to keep activations close to zero further into training
+ - All of the above
+
+
+# ------------------------------------------------------------------
+# | Section (c): Learning curves (4 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Training loss goes to zero.  Eval loss is still very bad.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_1: 
+ - Model has insufficient capacity
+ - Overfitting
+ - Learning rate too high
+
+# Question 2 (/1): Training and eval loss are high and barely move.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_2: 
+ - Model has insufficient capacity
+ - Learning rate too high
+ - Overfitting
+
+# Question 3 (/1): Training and eval loss go up, and keep going up.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_3: 
+ - Overfitting
+ - Model has insufficient capacity
+ - Learning rate too high
+
+# Question 4 (/1): What is an efficient use of your time when first starting to train a model?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_4: 
+ - Play with hyperparameters to find a starting point where it can memorize 1000 examples in a few minutes
+ - Train the model overnight and see if it makes any progress
+ - Train the model on your full training set for at least 10 epochs
+
+
+
+###################################################################
+###################################################################
+## Information Extraction (6 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Overview (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What are the roles of BIO tags?
+# (This question is multiple choice.  Delete all but the correct answer).
+information_extraction_a_1: 
+ - To inform class of animal detected as part of named entity recognition
+ - To indicate beginning and internal words involved in an entity
+
+# Question 2 (/1): Why is coreference hard?
+# (This question is multiple choice.  Delete all but the correct answer).
+information_extraction_a_2: 
+ - Distance between references can be very long (and therefore hard to model)
+ - Cataphora
+ - All of the above
+
+# Question 3 (/1): Hobbs is a...
+# (This question is multiple choice.  Delete all but the correct answer).
+information_extraction_a_3: 
+ - A method to identify named entities in text
+ - A heuristic to resolve coreferences often used as a feature in ML coref systems
+
+# Question 4 (/1): A common technique in information extraction is to identify tuples of the form (entity1, relation, entity2).  How many tuples do you need to represent [James became the new janitor at UC Berkeley]?
+information_extraction_a_4: 0
+
+# Question 5 (/1): Named entity recognition and named entity resolution are two names for the same thing. True or False?
+# (This question is multiple choice.  Delete all but the correct answer).
+information_extraction_a_5: 
+ - True
+ - False
+
+# Question 6 (/1): Open relation extraction (like the TextRunner system) is...?  (There is more than one right answer so leave all the correct ones.)
+# (This question is multiple choice.  Delete all but the correct answer).
+information_extraction_a_6: 
+ - Relatively easy to implement
+ - Produces relations with well-defined meanings
+ - Does not require expensive training data
+ - Only works on cases with lots of repitition

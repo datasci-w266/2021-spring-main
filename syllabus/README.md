@@ -242,6 +242,16 @@ will be released around the last live session of the week and due approximately 
   <td>Mar&nbsp;7</td>
 </tr>
 
+<tr> <!-- a7 -->
+  <td><strong><a href="../assignment/a7" target="_blank">Assignment&nbsp;7</a></strong>
+  <td><strong>Assignment 7</strong>
+  <ul>
+    <li>Various Topics
+  </ul></td>
+  <td></td>
+  <td>Mar&nbsp;14</td>
+</tr>
+
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>
